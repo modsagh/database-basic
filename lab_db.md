@@ -1,4 +1,4 @@
-# Introdaction to SQLAlchemy
+# Introdaction to Data Base
 
 The purpose of these laboratory classes is to familiarize participants with the basic techniques of working with Pandas with SQL.
 
