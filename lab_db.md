@@ -34,18 +34,7 @@ where:
 
 ## Query
 
-The basic select in SQLAlchemy has form:
-
-```python
-stmt = 'select * from table'
-
-# Execute the statement and fetch the results
-results = db.execute(stmt).fetchall()
-
-# Print results
-print(results)
-```
-Function *execute* make a request to a database and *fetchall* method get our results from an executed query. But in this case we don't use ORM propertis. More correctly is use structur:
+The basic select in PANDAS has form:
 
 ```python
 df = pd.read_sql('select * from city',con=connection)
